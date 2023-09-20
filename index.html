@@ -1,0 +1,512 @@
+<html>
+
+<!-- Mirrored from complexorj.squareweb.app/MecanicaCPXRJ.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Sep 2023 00:49:16 GMT -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+
+  body,td,th { font-size: 22px; font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(186, 163, 133); cursor: default; vertical-align: baseline; outline: 0; line-height: 1; margin: 0; padding: 0; word-wrap: break-word; }
+a,a:link,a:visited,a:active,a:hover { font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 14px; color: #666; text-decoration: none; }
+div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr { border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }
+:focus { outline:0; }
+img { border:none; }
+::-webkit-scrollbar { width: 0; }
+::selection { background: #FFB90F; }
+::-moz-selection { background: #0fb3ff; }
+
+body {
+  background-image: url('./canal.png1.png');
+  background-color: rgba(0, 0, 0, 0.0); /* 90% de transparência */
+  background-size: cover;
+  background-repeat: no-repeat; 
+  font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+opacity: 1.0 }
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+
+#actionmenu {
+	top: 50%;
+	left: 50%;
+	width: 1200px;
+	height: 700px;
+	display: none;
+	overflow: auto;
+	position: fixed;
+	border-top: 12px solid #0a0a0a;
+	border-left: 12px solid #111;
+	border-right: 12px solid #111;
+	border-bottom: 40px solid #111;
+	transform: translate(-50%,-50%);
+	background: #FFB90F;
+}
+body{
+background-color: #141414;
+}
+buttom {
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 14px;
+	display: none;
+	position: fixed;
+	margin-top: 355px;
+	background: #ffffff;
+	transform: translate(-50%,-50%);
+}
+
+buttom:hover {
+	background: #fff;
+}
+
+#header{
+	float: left;
+	width: 100%;
+	height: 70px;
+	background: #5f4230;
+}
+
+#header img{
+	width: 60px;
+	height: auto;
+	float: left;
+	padding: 7px;
+}
+
+#header h1{
+	float: left;
+	margin: 20px 20px;
+	color: hsl(0, 0%, 100%);
+}
+
+nav{
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+
+.menu {
+	width: 100%;
+	height: 186px;
+	float: left;
+	/*background: rgba(118,194,169,0.1);*/
+}
+.sub-menu {
+	width: 100%;
+	height: 100%;
+	float: left;
+	border-right: 1px solid #000;
+	/*background: rgba(118,194,169,0.1);*/
+}
+
+.menu a {
+	color: #a2a0a0;
+	padding: 25px 10px;
+	font-weight: 700;
+	float: left;
+	width: 89%;
+	border-right: solid 1px #000;
+}
+
+.menu a:hover, .menu a:focus {
+	/*background: rgba(118,194,169,1);*/
+	color: #5f4230;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	border-right: 0;
+	width: 161px;
+}
+
+.title {
+	width: 1125px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 5px 0 10px 15px;
+	border-bottom: 1px dashed #999;
+}
+
+.stitle {
+	width: 1110px;
+	padding: 15px 15px 30px;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.stitle2 {
+	width: 1110px;
+	padding: 15px 15px 0;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+s {
+	color: #45fffc;
+	text-decoration: none;
+}
+
+.dtitle2 {
+	width: 355px;
+	padding: 15px 0 30px 15px;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.dtitle3 {
+	width: 355px;
+	padding: 15px 0 0 15px;
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#opacity {
+	background: rgba(0,0,0,0.05);
+	padding: 15px;
+	width: 1170px;
+	float: left;
+}
+
+#opacity2 {
+	padding: 15px;
+	width: 1170px;
+	float: left;
+}
+
+#opacity:hover, #opacity2:hover {
+	background: rgba(169,73,135,0.1);
+}
+
+.title-one {
+	width: 310px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 5px 0 10px 15px;
+	border-bottom: 1px dashed #999;
+	margin: 0 0 15px;
+}
+
+.title-two {
+	width: 150px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px 0 10px 0;
+	border-bottom: 1px dashed #999;
+	margin: 0 0 15px;
+}
+
+.title-tree {
+	width: 150px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px 0 10px 0;
+	border-bottom: 1px dashed #999999;
+	margin: 0 0 15px;
+}
+
+.title-four {
+	width: 200px;
+	float: left;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 5px 0 10px 15px;
+	border-bottom: 1px dashed #17c434;
+	margin: 0 0 15px;
+}
+
+.parts-one {
+	font-weight: 700;
+	width: 310px;
+	float: left;
+}
+
+.parts-two {
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+.parts-tree {
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+.parts-four {
+	width: 545px;
+	float: left;
+	padding: 0 0 0 15px;
+}
+
+.caixa1 {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+  
+
+
+
+.caixa1 {
+    --colorBack: #040305;
+    --colorPurple: #9800ce;
+    --colorGray: rgb(0, 157, 255);
+
+
+}
+
+.caixa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50PX;
+   background: var(--colorBack);
+   color: var(--colorGray);
+}
+
+.caixa1 span {
+    animation: brilho 2s ease-in-out infinite;
+ 
+}
+
+.caixa1 span:nth-of-type(2) {
+    animation-delay: 0.25s;
+}
+.caixa1 span:nth-of-type(3) {
+    animation-delay: 0.50s;
+}
+.caixa1 span:nth-of-type(4) {
+    animation-delay: 0.75s;
+}
+.caixa1 span:nth-of-type(5) {
+    animation-delay: 1s;
+}
+.caixa1 span:nth-of-type(6) {
+    animation-delay: 1.25s;
+}
+.caixa1 span:nth-of-type(7) {
+    animation-delay: 1.50s;
+}
+
+@keyframes brilho{
+    0% {
+color: #790c38;
+text-shadow: 0 0 0 12px var(--colorPurple), 0 0 50px var(--colorPurple), 0 0 100px var(--colorPurple);
+
+    }
+    10%, 90% {
+color: var(--colorGray);
+text-shadow: none;
+    }
+
+}
+
+.caixa1 {
+	background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    width: 15px 15px;
+	height: 25px 25px;
+}
+
+
+.quadro1{
+	position: relative;
+	float: right;
+	width: 20%;
+	
+	
+}
+.quadro{
+	position: relative;
+	float: left;
+	width: 25%;
+	
+}
+
+.quadro1 button{
+	border: 0;
+	background-color: #000000;
+	border: 2px solid rgb(80, 80, 80);
+	border: #17c434;
+	border: blue;
+	border-bottom: 6px rgb(0, 0, 0) solid;
+	border-radius: 50px;
+	box-shadow: 0 15px 15px rgba(255, 255, 255, 0.2);
+	color: #760000;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 20px 50px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.right {
+text-align: right;
+}
+
+.left {
+text-align: left;
+}
+.center { 
+	font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+ display: flex;
+   align-items:center;
+   font-weight: bold;
+   font-size: 18px;
+   
+  justify-content: center;
+  
+}
+input[type="checkbox"] {
+        width: 25px; /* Defina a largura desejada */
+        height: 19px; /* Defina a altura desejada */
+		
+    }
+
+</style>
+<head>
+<title>Calculadora Mec MOTORS</title>
+<link rel="icon" type="image/x-icon" href="../cdn.discordapp.com/attachments/1105505496728875131/1142277837202665543/imagem_2023-08-17_212726224-removebg-preview.png">
+</head> 
+<body>
+    <div class="caixa1">
+		
+<span>M</span>
+	<span>O<span>
+	<span>T</span>
+	<span>O</span>
+	<span>R</span>
+	<span>S</span>
+	
+    </div>
+
+</body>
+<body>
+<div class="center">
+<img src="./motors1.png" width="50" height="50"><FONT COLOR="#760000"></FONT> </div></center>
+<div id="1" class="fc quadro form-control">
+<h3><pre>  <FONT COLOR="#760000">💨 𝐃𝐄𝐒𝐄𝐌𝐏𝐄𝐍𝐇𝐎</FONT></pre></h3>
+<pre>  <input id="FREIO" type="checkbox" name="mec" value="1|350000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝐅𝐔𝐋𝐋𝐓𝐔𝐍𝐈𝐍𝐆</pre>
+<h3><pre>  <img src="./images1.png" width="28" height="28"><FONT COLOR="#760000"> DESCONTOS:</FONT></pre></h3>
+<pre>  <input id="5pct" type="checkbox" name="descount" value="1|5" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->  𝟓 %</pre>
+<pre>  <input id="10pct" type="checkbox" name="descount" value="1|10" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba-> 𝟏𝟎 %</pre>
+<pre>  <input id="15pct" type="checkbox" name="descount" value="1|15" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba-> 𝟏𝟓 %</pre>
+<pre>  <input id="20pct" type="checkbox" name="descount" value="1|20" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba-> 𝟐𝟎 %</pre>
+<pre>  <input id="25pct" type="checkbox" name="descount" value="1|25" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba-> 𝟐𝟓 %</pre>
+<pre>  <input id="50pct" type="checkbox" name="descount" value="1|50" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba-> 𝟓𝟎 %</pre>
+</div>
+<div id="2" class="quadro">
+<h3><pre>  <FONT COLOR="#760000">📋 𝐄𝐒𝐓É𝐓𝐈𝐂𝐀 1</FONT></pre></h3>
+
+<pre>  <input id="AEROFOLIO" type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝘼𝙀𝙍𝙊𝙁𝙊𝙇𝙄𝙊</pre>
+
+<pre>  <input id="Arch Cover " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝐏𝐀𝐑𝐀-𝐂𝐇𝐎𝐐𝐔𝐄 𝐃𝐈𝐀𝐍𝐓𝐄𝐈𝐑𝐎</pre>
+<pre>  <input id="BANCOS" type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙋𝘼𝙍𝘼 - 𝘾𝙃𝙊𝙌𝙐𝙀 𝙏𝙍𝘼𝙎𝙀𝙄𝙍𝙊</pre>
+<pre>  <input id="BLOCO DO MOTOR " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙎𝘼𝙄𝘼𝙎</pre>
+<pre>  <input id="BUZINA " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙀𝙎𝘾𝘼𝙋𝘼𝙈𝙀𝙉𝙏𝙊</pre>
+<pre>  <input id="CAPO " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙄𝙏𝙀𝙉𝙎 - 𝘾𝙃𝘼𝙎𝙎𝙄</pre>
+<pre>  <input id="DIAL " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙂𝙍𝙀𝙇𝙃𝘼</pre>
+<pre>  <input id="ESCAPAMENTO " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝘾𝘼𝙋𝙊</pre>
+<pre>  <input id="FILTRO DE AR" type="checkbox" name="mec" value="1|10000|62500" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙋𝘼𝙍𝘼𝙇𝘼𝙈𝘼</pre>
+<pre>  <input id="FUMAÇA DO PNEU" type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙏𝙀𝙏𝙊</pre>
+<pre>  <input id="PARACHOQUE /D" type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝘿𝙀𝘾𝘼𝙇</pre>
+</div>
+<div id="3" class="quadro">
+<h3><pre>  <FONT COLOR="#760000">📋 ESTÉTICA 2</FONt></pre></h3>
+<pre>  <input id="PARACHOQUE/T" type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝐓𝐎𝐃𝐎𝐒 𝐈𝐓𝐄𝐍𝐒 - 𝐑𝐎𝐃𝐀𝐒</pre>
+<pre>  <input id="ORNAMENTS " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙋𝙇𝘼𝘾𝘼</pre>
+<pre>  <input id="PLAQUES " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝘾𝙊𝙍 - 𝘿𝙊 𝘾𝘼𝙍𝙍𝙊 1</pre>
+<pre>  <input id="PLATE HOLDER " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝘾𝙊𝙍 - 𝘿𝙊 𝘾𝘼𝙍𝙍𝙊 2</pre>
+<pre>  <input id="PORTAS " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙑𝙄𝘿𝙍𝙊 - 𝙄𝙉𝙎𝙐𝙇𝙁𝙄𝙇𝙈𝙀</pre>
+<pre>  <input id="GRELHA" type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝘽𝙐𝙕𝙄𝙉𝘼</pre>
+<pre>  <input id="HIDRÁULICA " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙄𝙏𝙀𝙉𝙎 - 𝙄𝙉𝙏𝙀𝙍𝙄𝙊𝙍</pre>
+<pre>  <input id="JANELA " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙈𝙐𝘿𝘼𝙍 𝘾𝙊𝙍 - 𝙓𝙀𝙉𝙊𝙉</pre>
+<pre>  <input id="NEON" type="checkbox" name="mec" value="1|25000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙓𝙀𝙉𝙊𝙉</pre>
+<pre>  <input id="PAINEL " type="checkbox" name="mec" value="1|10000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙈𝙐𝘿𝘼𝙍 𝘾𝙊𝙍 - 𝙉𝙀𝙊𝙉</pre>
+<pre>  <input id="PARALAMAS" type="checkbox" name="mec" value="1|25000" onclick="if (!window.__cfRLUnblockHandlers) return false; calcular()" data-cf-modified-14b012033c3c9ff11e4321ba->𝙉𝙀𝙊𝙉</pre>
+
+</div>
+<div id="4" class="quadro1">
+<h3>💸 <FONT COLOR="#3333FF"><div id="subtotal">Subtotal: R$ 0</div></FONT></h3>
+<h3>💸 <FONT COLOR="#CCCC00"><div id="desconto">Desconto: R$ 0</div></FONT></h3>
+<h3>💸 <FONT COLOR="#009900"><div id="total">TOTAL: R$ 0</div></FONT></h3>
+<button onclick="if (!window.__cfRLUnblockHandlers) return false; desmarcarTodasCheckboxes()" data-cf-modified-14b012033c3c9ff11e4321ba-><b>L I M P A R</b></button>
+</div>
+<script type="14b012033c3c9ff11e4321ba-text/javascript">
+function calcular() {
+  calcularSubtotal();
+  calcularDesconto();
+  calcularTotal();
+}
+
+function calcularSubtotal() {
+  const checkboxesMec = document.querySelectorAll('input[name="mec"]:checked');
+  let subtotal = 0;
+
+  checkboxesMec.forEach(checkbox => {
+    const valor = parseFloat(checkbox.value.split('|')[1]);
+    subtotal += valor;
+  });
+
+  document.getElementById('subtotal').textContent = `Subtotal: R$ ${formatarValor(subtotal)}`;
+}
+
+function calcularDesconto() {
+  const checkboxesDesconto = document.querySelectorAll('input[name="descount"]:checked');
+  let descontoPercentual = 0;
+
+  checkboxesDesconto.forEach(checkbox => {
+    const percentual = parseFloat(checkbox.value.split('|')[1]);
+    descontoPercentual += percentual;
+  });
+
+  const subtotal = parseFloat(document.getElementById('subtotal').textContent.replace('Subtotal: R$ ', '').replace(/\./g, '').replace(',', '.'));
+  const valorDesconto = subtotal * (descontoPercentual / 100);
+
+  document.getElementById('desconto').textContent = `Desconto: R$ ${formatarValor(valorDesconto)}`;
+}
+
+function calcularTotal() {
+  const subtotal = parseFloat(document.getElementById('subtotal').textContent.replace('Subtotal: R$ ', '').replace(/\./g, '').replace(',', '.'));
+  const valorDesconto = parseFloat(document.getElementById('desconto').textContent.replace('Desconto: R$ ', '').replace(/\./g, '').replace(',', '.'));
+
+  const total = subtotal - valorDesconto;
+  document.getElementById('total').textContent = `TOTAL: R$ ${formatarValor(total)}`;
+}
+
+function formatarValor(valor) {
+  return valor.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+}
+</script>
+<script type="14b012033c3c9ff11e4321ba-text/javascript"> // Script do botão resetar
+	function desmarcarTodasCheckboxes() {
+	  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+	  checkboxes.forEach(checkbox => {
+		checkbox.checked = false;
+	  });
+	
+	  calcular();
+	}
+	</script>
+<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="14b012033c3c9ff11e4321ba-|49" defer></script></body>
+
+</html> 
+
+
+
+
